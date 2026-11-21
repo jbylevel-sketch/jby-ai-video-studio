@@ -1,0 +1,12 @@
+JBY AI VIDEO STUDIO — ETAP 8
+
+Pake backend sa gen HTML, config, schema SQL, local migration, verifier SQL, pgTAP RLS suite, Edge Function starter, tests ak dokiman.
+
+1) Pou tès local: enstale Docker + Supabase CLI; kouri `supabase start`, `supabase db reset` (local only), epi `supabase test db`.
+2) Migration local la dwe rete menm ak supabase/schema.sql; tests/verify_stage8.py verifye parity.
+3) Pou hosted: egzekite schema.sql ak verify.sql nan Dashboard SQL Editor.
+4) Mete Project URL ak public publishable key sb_publishable_... nan config.js. Pa mete service_role/sb_secret.
+5) Pibliye sèlman index.html + config.js sou HTTPS; configure Auth Site URL/Redirect URLs.
+6) Teste de kont diferan. Pa konsidere koneksyon kòm verifye jiskaske tès hosted yo pase.
+
+Pa gen koneksyon hosted, deployment, AI video generation, social publishing, payment oswa storage upload ki aktive nan pake sa.
